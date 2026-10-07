@@ -23,8 +23,15 @@ class SuperHeroListActivity: AppCompatActivity() {
             )
         )
         Log.d(TAG, "onCreate: ${superheroeViewModel.getSuperheroes()}")
-        val superheroeName = findViewById<TextView>(R.id.superheroe_name1)
-        superheroeName.text = superheroeViewModel.getSuperheroes()[2].name
+
+        val superheroeName1 = findViewById<TextView>(R.id.superheroe_name1)
+        superheroeName1.text = superheroeViewModel.getSuperheroes()[0].name
+
+        val superheroeName2 = findViewById<TextView>(R.id.superheroe_name2)
+        superheroeName2.text = superheroeViewModel.getSuperheroes()[1].name
+
+        val superheroeName3 = findViewById<TextView>(R.id.superheroe_name3)
+        superheroeName3.text = superheroeViewModel.getSuperheroes()[2].name
     }
 
     companion object{

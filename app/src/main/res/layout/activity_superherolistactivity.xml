@@ -32,8 +32,7 @@
         android:layout_height="wrap_content"
         android:text="@string/label_name"
         app:layout_constraintTop_toBottomOf="@id/superheroe_name1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"/>
 
 
     <TextView
@@ -50,8 +49,7 @@
         android:layout_height="wrap_content"
         android:text="@string/label_name"
         app:layout_constraintTop_toBottomOf="@id/superheroe_name2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"/>
 
 
     <TextView
