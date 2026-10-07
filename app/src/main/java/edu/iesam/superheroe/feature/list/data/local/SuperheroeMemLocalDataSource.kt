@@ -1,0 +1,14 @@
+package edu.iesam.superheroe.feature.list.data.local
+
+import edu.iesam.superheroe.feature.list.domain.Superheroe
+
+class SuperheroeMemLocalDataSource {
+
+    private val localSuperheroe = mutableListOf<Superheroe>(
+        Superheroe("Superman","Superman","https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c84363f7-683b-4dad-8a9d-64ea64349c55/djqgc14-a19fb7b5-e637-4370-a0c4-9a4b49a78a14.png/v1/fill/w_1280,h_1806/superman_render_2_by_deviljaytx_djqgc14-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgwNiIsInBhdGgiOiIvZi9jODQzNjNmNy02ODNiLTRkYWQtOGE5ZC02NGVhNjQzNDljNTUvZGpxZ2MxNC1hMTlmYjdiNS1lNjM3LTQzNzAtYTBjNC05YTRiNDlhNzhhMTQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.80EYaf-ReTLnpX-MIeLGtUrrPZHFcidy6HLNysWxs-E"),
+        Superheroe("Spider-man","Spider-man","https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6fc82fe7-e04c-4d7f-9ed3-3e3df6a42b38/ddl3lw6-9ae2bef4-a642-467c-a021-8668d9846fcd.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi82ZmM4MmZlNy1lMDRjLTRkN2YtOWVkMy0zZTNkZjZhNDJiMzgvZGRsM2x3Ni05YWUyYmVmNC1hNjQyLTQ2N2MtYTAyMS04NjY4ZDk4NDZmY2QucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kjtLYQpqGnqMRKVRRY-1tITI_lkK9bsBLdwDLrE-2xo"),
+        Superheroe("Iron Man","Iron_man","https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/84f6d3c7-19b3-471c-99b3-ebe943ca814d/dkkw63d-7e1bebe3-ae54-4243-adba-b458085c3734.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi84NGY2ZDNjNy0xOWIzLTQ3MWMtOTliMy1lYmU5NDNjYTgxNGQvZGtrdzYzZC03ZTFiZWJlMy1hZTU0LTQyNDMtYWRiYS1iNDU4MDg1YzM3MzQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ru_B9ekUHYwTr_pLVOaG0p4Mat7-VQbG12tLv5gllQY")
+    )
+
+    fun getAll() = localSuperheroe
+}
