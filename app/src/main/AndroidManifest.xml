@@ -17,7 +17,7 @@
             android:windowSoftInputMode="adjustResize">
         </activity>
         <activity
-            android:name=".feature.superherolist.SuperHeroListActivity"
+            android:name=".feature.superherolist.presentation.SuperHeroListActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>

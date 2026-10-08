@@ -1,4 +1,4 @@
-package edu.iesam.superheroe.feature.list.domain
+package edu.iesam.superheroe.feature.superherolist.domain
 
 interface SuperheroeRepository {
     fun obtainSuperheroes(): List<Superheroe>

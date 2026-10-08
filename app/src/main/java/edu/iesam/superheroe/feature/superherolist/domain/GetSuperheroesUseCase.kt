@@ -1,4 +1,4 @@
-package edu.iesam.superheroe.feature.list.domain
+package edu.iesam.superheroe.feature.superherolist.domain
 
 class GetSuperheroesUseCase(private val superheroeRepository: SuperheroeRepository) {
 

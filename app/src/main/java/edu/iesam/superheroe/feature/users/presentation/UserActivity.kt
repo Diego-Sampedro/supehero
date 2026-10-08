@@ -8,10 +8,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import edu.iesam.superheroe.R
-import edu.iesam.superheroe.feature.list.data.SuperheroeDataRepository
-import edu.iesam.superheroe.feature.list.data.local.SuperheroeMemLocalDataSource
-import edu.iesam.superheroe.feature.list.domain.GetSuperheroesUseCase
-import edu.iesam.superheroe.feature.list.presentation.ListViewModel
 import edu.iesam.superheroe.feature.users.data.UserDataRepository
 import edu.iesam.superheroe.feature.users.data.local.UserMemLocalDataSource
 import edu.iesam.superheroe.feature.users.domain.GetUsersUseCase
